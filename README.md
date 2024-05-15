@@ -1,4 +1,4 @@
-# raycast-cross-extensions-conventions
+# Raycast Cross-Extensions Conventions
 
 Defines the development approach for cross-extension in Raycast
 
@@ -81,7 +81,7 @@ Show the world your extension implemented Cross-Extension.
 ![raycast-cross-extension-badge]
 
 ```markdown
-![](https://shields.io/badge/Raycast-Cross--Extension-eee?labelColor=FF6363&logo=raycast&logoColor=fff&style=flat-square)
+[![](https://shields.io/badge/Raycast-Cross--Extension-eee?labelColor=FF6363&logo=raycast&logoColor=fff&style=flat-square)](https://github.com/LitoMore/raycast-cross-extension-conventions)
 ```
 
 ## Who's using Cross-Extension
