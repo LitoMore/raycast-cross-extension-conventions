@@ -1,0 +1,29 @@
+{
+	"name": "raycast-cross-extension",
+	"version": "0.0.0",
+	"description": "Defines the development approach for cross-extension in Raycast",
+	"main": "distribution/index.js",
+	"types": "distribution",
+	"scripts": {
+		"build": "del-cli distribution && tsc",
+		"test": "xo"
+	},
+	"keywords": [
+		"raycast",
+		"extension",
+		"cross-extension",
+		"conventions"
+	],
+	"author": "LitoMore",
+	"license": "CC0-1.0",
+	"peerDependencies": {
+		"@raycast/api": ">=1"
+	},
+	"devDependencies": {
+		"@sindresorhus/tsconfig": "^5.0.0",
+		"@types/node": "^20.12.12",
+		"del-cli": "^5.1.0",
+		"typescript": "^5.4.5",
+		"xo": "^0.58.0"
+	}
+}

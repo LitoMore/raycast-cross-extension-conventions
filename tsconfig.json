@@ -1,0 +1,9 @@
+{
+	"extends": "@sindresorhus/tsconfig",
+	"include": ["source"],
+	"compilerOptions": {
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"outDir": "distribution",
+	}
+}

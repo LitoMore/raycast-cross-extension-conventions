@@ -8,6 +8,12 @@ Defines the development approach for cross-extension in Raycast
 
 Raycast has tons of extensions so far. But most of them are standalone, it’s hard to use their ability from other extensions.
 
+## Install
+
+```shell
+npm i raycast-cross-extension
+```
+
 ## Expose Extension Ability
 
 Incoming parameters can be passed from [`LaunchContext`](https://developers.raycast.com/api-reference/command#launchcontext).
@@ -20,31 +26,22 @@ You need to catch exceptions from `launchCommand()` if the target command is not
 
 ```typescript
 import { open, launchCommand, LaunchProps } from "@raycast/api";
-
-type LaunchOptions = Parameters<typeof launchCommand>[0];
+import { callbackLaunchCommand, LaunchOptions } from "raycast-cross-extension";
 
 type LaunchContext = {
-  foo?: string;
-  bar?: string;
-  callbackLaunchOptions?: LaunchOptions;
+	foo?: string;
+	bar?: string;
+	callbackLaunchOptions?: LaunchOptions;
 };
 
 export default function Command({
-  launchContext = {},
+	launchContext = {},
 }: LaunchProps<{ launchContext?: LaunchContext }>) {
-  const { foo, bar, callbackLaunchOptions } = launchContext;
-  // ...
-  launchCommand({
-    ...callbackLaunchOptions,
-    context: {
-      ...callbackLaunchOptions?.context,
-      result: "foo",
-    },
-  }).catch(() => {
-    open(
-      "raycast://extensions/target-extension-author-name/target-extension-name"
-    );
-  });
+	const { foo, bar, callbackLaunchOptions } = launchContext;
+	// ...
+	callbackLaunchCommand(callbackLaunchOptions, {
+		result: "hello, world",
+	});
 }
 ```
 
@@ -52,22 +49,26 @@ export default function Command({
 
 ```typescript
 import { launchCommand, LaunchType } from "@raycast/api";
+import { crossLaunchCommand } from "raycast-cross-extension";
 
-launchCommand({
-  name: "target-command-name",
-  type: LaunchType.UserInitiated,
-  extensionName: "target-extension-name",
-  ownerOrAuthorName: "target-extension-author-name",
-  context: {
-    foo: "foo",
-    bar: "bar",
-    callbackLaunchOptions: {
-      name: "your-command-name",
-      type: LaunchType.UserInitiated, // Or `LaunchType.Background`
-      extensionName: "your-extension-name",
-      ownerOrAuthorName: "your-author-name",
-    },
-  },
+crossLaunchCommand(
+	{
+		name: "target-command-name",
+		type: LaunchType.UserInitiated,
+		extensionName: "target-extension-name",
+		ownerOrAuthorName: "target-extension-author-name",
+		context: {
+			foo: "foo",
+			bar: "bar",
+		},
+	},
+	{
+		ownerOrAuthorName: "your-extension-author-name",
+	},
+).catch(() => {
+	open(
+		"raycast://extensions/target-extension-author-name/target-extension-name",
+	);
 });
 ```
 
