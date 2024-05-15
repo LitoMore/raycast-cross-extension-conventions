@@ -2,6 +2,8 @@
 
 Defines the development approach for cross-extension in Raycast
 
+![raycast-cross-extension-badge]
+
 ## Background
 
 Raycast has tons of extensions so far. But most of them are standalone, it’s hard to use their ability from other extensions.
@@ -70,6 +72,10 @@ launchCommand({
 ```
 
 Please note passing parameters through [`Arguments`](https://developers.raycast.com/information/lifecycle/arguments) is not recommneded since it supports string only.
+
+## Maintenance
+
+When you make breaking changes, keep an eye out for other projects using your API.
 
 ## Badges
 
