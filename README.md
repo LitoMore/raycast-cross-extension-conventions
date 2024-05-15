@@ -11,12 +11,15 @@ Raycast has tons of extensions so far. But most of them are standalone, it’s h
 ### Declare acceptable parameters
 
 Incoming parameters can be passed from [`LaunchContext`](https://developers.raycast.com/api-reference/command#launchcontext).
+
 The `callbackLaunchOptions` is used for running the callback `launchCommand()` to the source extension.
+
+You need to catch exceptions from `launchCommand()` if the target command is not installed. The [`open()`](https://developers.raycast.com/api-reference/utilities#open) redirects to the Store when `launchCommand()` errored.
 
 #### Accept Parameters
 
 ```typescript
-import { launchCommand, LaunchProps } from "@raycast/api";
+import { open, launchCommand, LaunchProps } from "@raycast/api";
 
 type LaunchOptions = Parameters<typeof launchCommand>[0];
 
@@ -38,6 +41,10 @@ export default function Command({
       launchFromExtensionAuthor: "your-author-name",
       result: "foo",
     },
+  }).catch(() => {
+    open(
+      "raycast://extensions/target-extension-author-name/target-extension-name"
+    );
   });
 }
 ```
