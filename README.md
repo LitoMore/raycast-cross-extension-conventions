@@ -8,15 +8,15 @@ Raycast has tons of extensions so far. But most of them are standalone, it’s h
 
 ## Expose Extension Ability
 
-### Declare acceptable parameters
-
 Incoming parameters can be passed from [`LaunchContext`](https://developers.raycast.com/api-reference/command#launchcontext).
+
+An extension may have multiple target cross-extensions. You should always send `launchFromExtensionName` and `launchFromExtensionAuthor` to the source extension to keep the launch source clear.
 
 The `callbackLaunchOptions` is used for running the callback `launchCommand()` to the source extension.
 
 You need to catch exceptions from `launchCommand()` if the target command is not installed. The [`open()`](https://developers.raycast.com/api-reference/utilities#open) redirects to the Store when `launchCommand()` errored.
 
-#### Accept Parameters
+### Accept Parameters
 
 ```typescript
 import { open, launchCommand, LaunchProps } from "@raycast/api";
@@ -49,7 +49,7 @@ export default function Command({
 }
 ```
 
-#### Source Extension
+### Source Extension
 
 ```typescript
 import { launchCommand, LaunchType } from "@raycast/api";
