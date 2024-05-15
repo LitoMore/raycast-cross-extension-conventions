@@ -1,6 +1,8 @@
 # raycast-cross-extensions-conventions
 
-Defines the development approach for cross-extensions design
+Defines the development approach for cross-extension in Raycast
+
+## Background
 
 Raycast has tons of extensions so far. But most of them are standalone, it’s hard to use their ability from other extensions.
 
