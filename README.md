@@ -25,7 +25,7 @@ You need to catch exceptions from `launchCommand()` if the target command is not
 ### Accept Parameters
 
 ```typescript
-import { open, launchCommand, LaunchProps } from "@raycast/api";
+import { open, LaunchProps } from "@raycast/api";
 import { callbackLaunchCommand, LaunchOptions } from "raycast-cross-extension";
 
 type LaunchContext = {
@@ -48,7 +48,7 @@ export default function Command({
 ### Source Extension
 
 ```typescript
-import { launchCommand, LaunchType } from "@raycast/api";
+import { LaunchType } from "@raycast/api";
 import { crossLaunchCommand } from "raycast-cross-extension";
 
 crossLaunchCommand(
