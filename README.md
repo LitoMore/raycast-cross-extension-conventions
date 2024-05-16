@@ -1,4 +1,4 @@
-# Raycast Cross-Extensions Conventions
+# Raycast Cross-Extension Conventions
 
 Defines the development approach for cross-extension in Raycast
 
