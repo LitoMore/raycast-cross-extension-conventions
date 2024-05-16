@@ -14,38 +14,14 @@ Raycast has tons of extensions so far. But most of them are standalone, it’s h
 npm i raycast-cross-extension
 ```
 
-## Expose Extension Ability
+## Usages
 
-Incoming parameters can be passed from [`LaunchContext`](https://developers.raycast.com/api-reference/command#launchcontext).
+### Consumer Usage
 
-The `callbackLaunchOptions` is used for running the callback `launchCommand()` to the source extension.
+You need to catch exceptions from `launchCommand()` if the target command is not installed.
+The [`open()`](https://developers.raycast.com/api-reference/utilities#open) redirects to the Store when `launchCommand()` errored.
 
-You need to catch exceptions from `launchCommand()` if the target command is not installed. The [`open()`](https://developers.raycast.com/api-reference/utilities#open) redirects to the Store when `launchCommand()` errored.
-
-### Accept Parameters
-
-```typescript
-import { open, LaunchProps } from "@raycast/api";
-import { callbackLaunchCommand, LaunchOptions } from "raycast-cross-extension";
-
-type LaunchContext = {
-	foo?: string;
-	bar?: string;
-	callbackLaunchOptions?: LaunchOptions;
-};
-
-export default function Command({
-	launchContext = {},
-}: LaunchProps<{ launchContext?: LaunchContext }>) {
-	const { foo, bar, callbackLaunchOptions } = launchContext;
-	// ...
-	callbackLaunchCommand(callbackLaunchOptions, {
-		result: "hello, world",
-	});
-}
-```
-
-### Source Extension
+#### Example
 
 ```typescript
 import { LaunchType } from "@raycast/api";
@@ -72,7 +48,67 @@ crossLaunchCommand(
 });
 ```
 
+### Provider Usage
+
+Incoming parameters can be received from [`LaunchContext`](https://developers.raycast.com/api-reference/command#launchcontext).
+
+The `callbackLaunchOptions` is used for running the callback `launchCommand()` to the source extension.
+
 Please note passing parameters through [`Arguments`](https://developers.raycast.com/information/lifecycle/arguments) is not recommneded since it supports string only.
+
+#### Example
+
+```typescript
+import { open, LaunchProps } from "@raycast/api";
+import { callbackLaunchCommand, LaunchOptions } from "raycast-cross-extension";
+
+type LaunchContext = {
+	foo?: string;
+	bar?: string;
+	callbackLaunchOptions?: LaunchOptions;
+};
+
+export default function Command({
+	launchContext = {},
+}: LaunchProps<{ launchContext?: LaunchContext }>) {
+	const { foo, bar, callbackLaunchOptions } = launchContext;
+	// ...
+	callbackLaunchCommand(callbackLaunchOptions, {
+		result: "hello, world",
+	});
+}
+```
+
+## API
+
+### crossLaunchCommand(options, callbackOptions)
+
+#### options
+
+Type: `LaunchOptions`
+
+Options for launch the target command.
+
+#### callbackOptions
+
+Type: `Partial<LaunchOptions>`
+
+Options for launch the callback command. It will be used in the callback stage. You can only pass in `ownerOrAuthorName` here.
+The `name` defaults to `environment.commandName`, `type` defaults to `LaunchType.UserInitiated`, and `commandName` defaults to `environment.commandName`.
+
+### callbackLaunchCommand(options, payload)
+
+#### options
+
+Type: `LaunchOptions`
+
+Pass in `launchContext.callbackLaunchOptions`. This is used to load options for callback.
+
+#### payload
+
+Type: `LaunchOptions['context']`
+
+Context data for sending back to consumer command.
 
 ## Maintenance
 
