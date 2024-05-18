@@ -19,6 +19,7 @@ npm i raycast-cross-extension
 ### Consumer Usage
 
 Add your target extension handle to the `crossExtensions` list of package.json.
+This field allows providers to get to know who is using their extension. See [maintenance](#maintenance).
 
 ```json
 {
@@ -121,7 +122,8 @@ Context data for sending back to consumer command.
 ## Maintenance
 
 When you make breaking changes, keep an eye out for other projects using your API.
-You search for your extension handle `your-author-name/your-extension-name` from the [raycast/extension](https://github.com/raycast/extensions) to find that extension using your extension.
+
+You can search for your extension handle `your-author-name/your-extension-name` from the [raycast/extension](https://github.com/raycast/extensions) to find that extension using your extension.
 
 ## Badges
 
