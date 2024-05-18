@@ -18,7 +18,15 @@ npm i raycast-cross-extension
 
 ### Consumer Usage
 
-You need to catch exceptions from `launchCommand()` if the target command is not installed.
+Add your target extension handle to the `crossExtensions` list of package.json.
+
+```json
+{
+	"crossExtensions": ["target-extensions-author-name/target-extension-name"]
+}
+```
+
+You may need to catch exceptions from `launchCommand()` if the target command is not installed.
 The [`open()`](https://developers.raycast.com/api-reference/utilities#open) redirects to the Store when `launchCommand()` errored.
 
 #### Example
@@ -113,6 +121,7 @@ Context data for sending back to consumer command.
 ## Maintenance
 
 When you make breaking changes, keep an eye out for other projects using your API.
+You search for your extension handle `your-author-name/your-extension-name` from the [raycast/extension](https://github.com/raycast/extensions) to find that extension using your extension.
 
 ## Badges
 
