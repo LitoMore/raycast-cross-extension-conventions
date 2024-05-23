@@ -33,7 +33,7 @@ The [`open()`](https://developers.raycast.com/api-reference/utilities#open) redi
 #### Example
 
 ```typescript
-import { LaunchType } from "@raycast/api";
+import { LaunchType, open } from "@raycast/api";
 import { crossLaunchCommand } from "raycast-cross-extension";
 
 crossLaunchCommand(
@@ -68,7 +68,7 @@ Please note passing parameters through [`Arguments`](https://developers.raycast.
 #### Example
 
 ```typescript
-import { open, LaunchProps } from "@raycast/api";
+import { LaunchProps } from "@raycast/api";
 import { callbackLaunchCommand, LaunchOptions } from "raycast-cross-extension";
 
 type LaunchContext = {
