@@ -103,7 +103,7 @@ Options for launch the target command.
 Type: `Partial<LaunchOptions>`
 
 Options for launch the callback command. It will be used in the callback stage. You can only pass in `ownerOrAuthorName` here.
-The `name` defaults to `environment.commandName`, `type` defaults to `LaunchType.UserInitiated`, and `commandName` defaults to `environment.commandName`.
+The `name` defaults to `environment.commandName`, `type` defaults to `LaunchType.UserInitiated`, and `extensionName` defaults to `environment.extensionName`.
 
 ### callbackLaunchCommand(options, payload)
 
