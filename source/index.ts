@@ -19,9 +19,12 @@ export const crossLaunchCommand = async (
 	options: LaunchOptions,
 	callbackLaunchOptions?: Partial<LaunchOptions>,
 ) => {
+	// eslint-disable-next-line unicorn/prefer-module, @typescript-eslint/no-unsafe-assignment
+	const pack = readPackageUpSync({cwd: __dirname, normalize: false}) as any;
+	const ownerOrAuthorName = (pack?.packageJson?.owner ??
+		pack?.packageJson?.author) as string;
+
 	if ('ownerOrAuthorName' in options) {
-		// eslint-disable-next-line unicorn/prefer-module, @typescript-eslint/no-unsafe-assignment
-		const pack = readPackageUpSync({cwd: __dirname}) as any;
 		const targetHandle = `${options.ownerOrAuthorName}/${options.extensionName}`;
 		// eslint-disable-next-line @typescript-eslint/no-unsafe-call
 		if (!pack?.packageJson?.crossExtensions?.includes(targetHandle)) {
@@ -38,6 +41,7 @@ export const crossLaunchCommand = async (
 			callbackLaunchOptions: {
 				name: environment.commandName,
 				extensionName: environment.extensionName,
+				ownerOrAuthorName,
 				type: LaunchType.UserInitiated,
 				...callbackLaunchOptions,
 			},

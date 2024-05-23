@@ -36,21 +36,16 @@ The [`open()`](https://developers.raycast.com/api-reference/utilities#open) redi
 import { LaunchType, open } from "@raycast/api";
 import { crossLaunchCommand } from "raycast-cross-extension";
 
-crossLaunchCommand(
-	{
-		name: "target-command-name",
-		type: LaunchType.UserInitiated,
-		extensionName: "target-extension-name",
-		ownerOrAuthorName: "target-extension-author-name",
-		context: {
-			foo: "foo",
-			bar: "bar",
-		},
+crossLaunchCommand({
+	name: "target-command-name",
+	type: LaunchType.UserInitiated,
+	extensionName: "target-extension-name",
+	ownerOrAuthorName: "target-extension-author-name",
+	context: {
+		foo: "foo",
+		bar: "bar",
 	},
-	{
-		ownerOrAuthorName: "your-extension-author-name",
-	},
-).catch(() => {
+}).catch(() => {
 	open(
 		"raycast://extensions/target-extension-author-name/target-extension-name",
 	);
@@ -102,8 +97,8 @@ Options for launch the target command.
 
 Type: `Partial<LaunchOptions>`
 
-Options for launch the callback command. It will be used in the callback stage. You can only pass in `ownerOrAuthorName` here.
-The `name` defaults to `environment.commandName`, `type` defaults to `LaunchType.UserInitiated`, and `extensionName` defaults to `environment.extensionName`.
+Options for launch the callback command. It will be used in the callback stage.
+The `name` defaults to `environment.commandName`, `extensionName` defaults to `environment.extensionName`, `ownerOrAuthorName` defaults to owner or author name, and `type` defaults to `LaunchType.UserInitiated`.
 
 ### callbackLaunchCommand(options, payload)
 
