@@ -132,7 +132,12 @@ Show the world your extension implemented Cross-Extension.
 
 ## Who's using Cross-Extension
 
+### Consumers
+
 - [Badges - shields.io](https://raycast.com/litomore/badges) - Concise, consistent, and legible badges
+
+### Providers
+
 - [Brand Icons - simpleicons.org](https://raycast.com/litomore/simple-icons) - Browse, search, and copy free SVG icons for popular brands
 - [Color Picker](https://raycast.com/thomas/color-picker) - A simple system-wide color picker
 - [Say - Spoken Content](https://raycast.com/litomore/say) - macOS built-in Spoken Content interface
