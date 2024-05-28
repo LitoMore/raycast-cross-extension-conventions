@@ -141,6 +141,7 @@ Show the world your extension implemented Cross-Extension.
 - [Brand Icons - simpleicons.org](https://raycast.com/litomore/simple-icons) - Browse, search, and copy free SVG icons for popular brands
 - [Color Picker](https://raycast.com/thomas/color-picker) - A simple system-wide color picker
 - [Say - Spoken Content](https://raycast.com/litomore/say) - macOS built-in Spoken Content interface
+- [PM2](https://raycast.com/litomore/pm2) - Manage even run your Node.js processes through Raycast
 
 ## License
 
