@@ -2,7 +2,7 @@
 
 Defines the development approach for cross-extension in Raycast
 
-![raycast-cross-extension-badge]
+[![raycast-cross-extension-badge]][raycast-cross-extension-link]
 
 ## Background
 
@@ -130,7 +130,7 @@ You can search for your extension handle `your-author-name/your-extension-name` 
 
 Show the world your extension implemented Cross-Extension.
 
-![raycast-cross-extension-badge]
+[![raycast-cross-extension-badge]][raycast-cross-extension-link]
 
 ```markdown
 [![](https://shields.io/badge/Raycast-Cross--Extension-eee?labelColor=FF6363&logo=raycast&logoColor=fff&style=flat-square)](https://github.com/LitoMore/raycast-cross-extension-conventions)
@@ -154,3 +154,4 @@ Show the world your extension implemented Cross-Extension.
 CC0-1.0
 
 [raycast-cross-extension-badge]: https://shields.io/badge/Raycast-Cross--Extension-eee?labelColor=FF6363&logo=raycast&logoColor=fff&style=flat-square
+[raycast-cross-extension-link]: https://github.com/LitoMore/raycast-cross-extension-conventions
