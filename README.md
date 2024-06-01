@@ -149,6 +149,10 @@ Show the world your extension implemented Cross-Extension.
 - [Say - Spoken Content](https://raycast.com/litomore/say) - macOS built-in Spoken Content interface
 - [PM2](https://raycast.com/litomore/pm2) - Manage even run your Node.js processes through Raycast
 
+### Utilities
+
+- [raycast-pm2](https://github.com/LitoMore/raycast-pm2) - PM2 utilities for Raycast Extensions
+
 ## License
 
 CC0-1.0
