@@ -95,10 +95,11 @@ Options for launch the target command.
 
 #### callbackOptions
 
-Type: `Partial<LaunchOptions>`
+Type: `Partial<LaunchOptions> | false`
 
 Options for launch the callback command. It will be used in the callback stage.
 The `name` defaults to `environment.commandName`, `extensionName` defaults to `environment.extensionName`, `ownerOrAuthorName` defaults to owner or author name, and `type` defaults to `LaunchType.UserInitiated`.
+You can set it to `false` to disable command callback.
 
 ### callbackLaunchCommand(options, payload)
 

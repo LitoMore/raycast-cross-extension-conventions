@@ -3,6 +3,8 @@ import {sync as readPackageUpSync} from 'read-pkg-up';
 
 export type LaunchOptions = Parameters<typeof launchCommand>[0];
 
+export type CallbackLaunchOptions = Partial<LaunchOptions> | false;
+
 export const callbackLaunchCommand = async (
 	options: LaunchOptions,
 	result?: LaunchOptions['context'],
@@ -17,8 +19,12 @@ export const callbackLaunchCommand = async (
 
 export const crossLaunchCommand = async (
 	options: LaunchOptions,
-	callbackLaunchOptions?: Partial<LaunchOptions>,
+	callbackLaunchOptions?: CallbackLaunchOptions,
 ) => {
+	if (callbackLaunchOptions === false) {
+		return launchCommand(options);
+	}
+
 	// eslint-disable-next-line unicorn/prefer-module, @typescript-eslint/no-unsafe-assignment
 	const pack = readPackageUpSync({cwd: __dirname, normalize: false}) as any;
 	const ownerOrAuthorName = (pack?.packageJson?.owner ??
