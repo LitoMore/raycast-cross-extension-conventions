@@ -85,7 +85,7 @@ export default function Command({
 
 ## API
 
-### crossLaunchCommand(options, callbackOptions)
+### crossLaunchCommand(options, callbackOptions?)
 
 #### options
 
@@ -97,11 +97,16 @@ Options for launch the target command.
 
 Type: `Partial<LaunchOptions> | false`
 
-Options for launch the callback command. It will be used in the callback stage.
-The `name` defaults to `environment.commandName`, `extensionName` defaults to `environment.extensionName`, `ownerOrAuthorName` defaults to owner or author name, and `type` defaults to `LaunchType.UserInitiated`.
+Optional. Options for launch the callback command. It will be used in the callback stage with default values below:
+
+- `name` defaults to `environment.commandName`
+- `extensionName` defaults to `environment.extensionName`
+- `ownerOrAuthorName` defaults to owner or author name
+- `type` defaults to `LaunchType.UserInitiated`
+
 You can set it to `false` to disable command callback.
 
-### callbackLaunchCommand(options, payload)
+### callbackLaunchCommand(options, payload?)
 
 #### options
 
@@ -113,7 +118,7 @@ Pass in `launchContext.callbackLaunchOptions`. This is used to load options for 
 
 Type: `LaunchOptions['context']`
 
-Context data for sending back to consumer command.
+Optional. Context data for sending back to consumer command.
 
 ## Maintenance
 
