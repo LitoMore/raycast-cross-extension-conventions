@@ -141,6 +141,7 @@ Show the world your extension implemented Cross-Extension.
 ### Consumers
 
 - [Badges - shields.io](https://raycast.com/litomore/badges) - Concise, consistent, and legible badges
+- [United Nations](https://github.com/raycast/extensions/pull/12846) - Peace, dignity and equality on a healthy planet
 
 ### Providers
 
