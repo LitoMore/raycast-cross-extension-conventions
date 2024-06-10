@@ -27,8 +27,10 @@ This field allows providers to get to know who is using their extension. See [ma
 }
 ```
 
-You may need to catch exceptions from `launchCommand()` if the target command is not installed.
-The [`open()`](https://developers.raycast.com/api-reference/utilities#open) redirects to the Store when `launchCommand()` errored.
+We recommend always using the `crossLaunchCommand()` API to launch cross-extensions even your extension doesn't use the callback launch feature.
+
+You may need to catch exceptions from `crossLaunchCommand()` if the target command is not installed.
+The [`open()`](https://developers.raycast.com/api-reference/utilities#open) redirects to the Store when `crossLaunchCommand()` errored.
 
 #### Example
 
