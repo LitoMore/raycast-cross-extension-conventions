@@ -27,8 +27,10 @@ export const crossLaunchCommand = async (
 
 	// eslint-disable-next-line unicorn/prefer-module, @typescript-eslint/no-unsafe-assignment
 	const pack = readPackageUpSync({cwd: __dirname, normalize: false}) as any;
-	const ownerOrAuthorName = (pack?.packageJson?.owner ??
-		pack?.packageJson?.author) as string;
+	const ownerOrAuthorName =
+		// The `ownerOrAuthorName` was introduced in @raycast/api@1.78.0. We use a fallback to support older versions.
+		environment.ownerOrAuthorName ??
+		((pack?.packageJson?.owner ?? pack?.packageJson?.author) as string);
 
 	if ('ownerOrAuthorName' in options) {
 		const targetHandle = `${options.ownerOrAuthorName}/${options.extensionName}`;

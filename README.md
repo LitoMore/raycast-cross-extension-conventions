@@ -106,7 +106,7 @@ Optional. Options for launch the callback command. It will be used in the callba
 
 - `name` defaults to `environment.commandName`
 - `extensionName` defaults to `environment.extensionName`
-- `ownerOrAuthorName` defaults to owner or author name
+- `ownerOrAuthorName` defaults to `environment.ownerOrAuthorName` or the field in `package.json`
 - `type` defaults to `LaunchType.UserInitiated`
 
 You can set it to `false` to disable command callback.
