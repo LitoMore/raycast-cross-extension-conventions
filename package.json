@@ -28,7 +28,7 @@
 		"@types/node": "^20.12.12",
 		"del-cli": "^5.1.0",
 		"typescript": "^5.4.5",
-		"xo": "^0.58.0"
+		"xo": "^0.59.3"
 	},
 	"dependencies": {
 		"read-pkg-up": "^7.0.1"
