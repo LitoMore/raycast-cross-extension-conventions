@@ -155,7 +155,7 @@ Show the world your extension implemented Cross-Extension.
 - [Color Picker](https://raycast.com/thomas/color-picker) - A simple system-wide color picker
 - [PM2](https://raycast.com/litomore/pm2) - Manage even run your Node.js processes through Raycast
 - [Say - Text to Speech](https://raycast.com/litomore/say) - macOS built-in TTS interface
-- [SteamGridDB](https://raycast.com/litomore/say) - Browse SteamGridDB images in Raycast
+- [SteamGridDB](https://raycast.com/litomore/steamgriddb) - Browse SteamGridDB images in Raycast
 
 ### Utilities
 
