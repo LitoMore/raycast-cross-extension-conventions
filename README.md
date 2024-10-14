@@ -129,7 +129,7 @@ Optional. Context data for sending back to consumer command.
 
 When you make breaking changes, keep an eye out for other projects using your API.
 
-You can search for your extension handle `your-author-name/your-extension-name` from the [raycast/extension](https://github.com/raycast/extensions) to find that extension using your extension.
+You can search for your extension handle `your-author-name/your-extension-name` from the [Raycast Extensions repository](https://github.com/raycast/extensions) to find that extension using your extension.
 
 ## Badges
 
