@@ -147,6 +147,7 @@ Show the world your extension implemented Cross-Extension.
 
 - [Badges - shields.io](https://raycast.com/litomore/badges) - Concise, consistent, and legible badges
 - [Cursor Directory](https://raycast.com/escwxyz/cursor-directory) - Your cursor.directory in Raycast
+- [Pomodoro] - (https://www.raycast.com/asubbotin/pomodoro) - Pomodoro extension with menu-bar timer
 - [Steam](https://raycast.com/KevinBatdorf/steam) - Search and view any Steam games
 - [United Nations](https://raycast.com/litomore/united-nations) - Peace, dignity and equality on a healthy planet
 
@@ -155,6 +156,7 @@ Show the world your extension implemented Cross-Extension.
 - [Brand Icons - simpleicons.org](https://raycast.com/litomore/simple-icons) - Browse, search, and copy free SVG icons for popular brands
 - [Color Picker](https://raycast.com/thomas/color-picker) - A simple system-wide color picker
 - [Cursor](https://raycast.com/degouville/cursor-recent-projects) - Control Cursor, Cursor & Codium directly from Raycast
+- [Do Not Disturb](https://raycast.com/yakitrak/do-not-disturb) - Disable notifications on your Apple devices
 - [PM2](https://raycast.com/litomore/pm2) - Manage even run your Node.js processes through Raycast
 - [ProtonDB](https://raycast.com/protondb) - Game information for Proton, Linux, Steam Deck, and SteamOS
 - [Say - Text to Speech](https://raycast.com/litomore/say) - macOS built-in TTS interface
