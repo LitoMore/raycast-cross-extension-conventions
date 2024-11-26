@@ -158,7 +158,8 @@ Show the world your extension implemented Cross-Extension.
 - [Cursor](https://raycast.com/degouville/cursor-recent-projects) - Control Cursor, Cursor & Codium directly from Raycast
 - [Do Not Disturb](https://raycast.com/yakitrak/do-not-disturb) - Disable notifications on your Apple devices
 - [PM2](https://raycast.com/litomore/pm2) - Manage even run your Node.js processes through Raycast
-- [ProtonDB](https://raycast.com/protondb) - Game information for Proton, Linux, Steam Deck, and SteamOS
+- [ProtonDB](https://raycast.com/litomore/protondb) - Game information for Proton, Linux, Steam Deck, and SteamOS
+- [Raycast Port](https://raycast.com/litomore/raycast-port) - Allows you to use Raycast features out of Raycast
 - [Say - Text to Speech](https://raycast.com/litomore/say) - macOS built-in TTS interface
 - [SteamGridDB](https://raycast.com/litomore/steamgriddb) - Browse SteamGridDB images in Raycast
 
