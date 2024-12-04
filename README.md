@@ -160,11 +160,14 @@ Show the world your extension implemented Cross-Extension.
 - [PM2](https://raycast.com/litomore/pm2) - Manage even run your Node.js processes through Raycast
 - [ProtonDB](https://raycast.com/litomore/protondb) - Game information for Proton, Linux, Steam Deck, and SteamOS
 - [Raycast Port](https://raycast.com/litomore/raycast-port) - Allows you to use Raycast features out of Raycast
+- [Raycast Notification](https://raycast.com/maxnyby/raycast-notification) - Makes it easy to display notifications via a quicklink
 - [Say - Text to Speech](https://raycast.com/litomore/say) - macOS built-in TTS interface
 - [SteamGridDB](https://raycast.com/litomore/steamgriddb) - Browse SteamGridDB images in Raycast
 
 ### Utilities
 
+- [raycast-hid](https://github.com/LitoMore/raycast-hid) - Access USB HID devices from Raycast
+- [raycast-notifier] - Send cross platform native notifications using Raycast
 - [raycast-pm2](https://github.com/LitoMore/raycast-pm2) - PM2 utilities for Raycast Extensions
 
 ## License
