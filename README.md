@@ -63,7 +63,7 @@ The `callbackLaunchOptions` is used for running the callback `launchCommand()` t
 Please note passing parameters through [`Arguments`](https://developers.raycast.com/information/lifecycle/arguments) is not recommneded since it supports string only.
 
 But a command with arguments is still useful if you want to reuse your existing arguments-based commands as the cross-extension entrance.
-For exmaple, the [Say](https://raycast.com/litomore/say) extension is using the `typeToSay` arguments-based command for receiving cross-extension parameters.
+For example, the [Say](https://raycast.com/litomore/say) extension is using the `typeToSay` arguments-based command for receiving cross-extension parameters.
 
 #### Example
 
