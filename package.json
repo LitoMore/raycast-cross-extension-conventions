@@ -25,11 +25,11 @@
 		"@raycast/api": ">=1"
 	},
 	"devDependencies": {
-		"@sindresorhus/tsconfig": "^5.0.0",
-		"@types/node": "^20.12.12",
-		"del-cli": "^5.1.0",
-		"typescript": "^5.4.5",
-		"xo": "^0.59.3"
+		"@sindresorhus/tsconfig": "^7.0.0",
+		"@types/node": "^22.10.2",
+		"del-cli": "^6.0.0",
+		"typescript": "^5.7.2",
+		"xo": "^0.60.0"
 	},
 	"dependencies": {
 		"read-pkg-up": "^7.0.1"
