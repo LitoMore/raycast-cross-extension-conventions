@@ -157,6 +157,7 @@ Show the world your extension implemented Cross-Extension.
 - [Color Picker](https://raycast.com/thomas/color-picker) - A simple system-wide color picker
 - [Cursor](https://raycast.com/degouville/cursor-recent-projects) - Control Cursor, Cursor & Codium directly from Raycast
 - [Do Not Disturb](https://raycast.com/yakitrak/do-not-disturb) - Disable notifications on your Apple devices
+- [Langugae Detector](https://raycast.com/litomore/language-detector) - Detect languages through Raycast AI or third-party language detectors
 - [PM2](https://raycast.com/litomore/pm2) - Manage even run your Node.js processes through Raycast
 - [ProtonDB](https://raycast.com/litomore/protondb) - Game information for Proton, Linux, Steam Deck, and SteamOS
 - [Raycast Port](https://raycast.com/litomore/raycast-port) - Allows you to use Raycast features out of Raycast
