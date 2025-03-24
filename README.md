@@ -167,6 +167,7 @@ Show the world your extension implemented Cross-Extension.
 
 ### Utilities
 
+- [raycast-backend-api](https://github.com/LitoMore/raycast-backend-api) - Accessing the Raycast backend API delightfully
 - [raycast-hid](https://github.com/LitoMore/raycast-hid) - Access USB HID devices from Raycast
 - [raycast-language-detector](https://github.com/LitoMore/raycast-language-detector) - Detect languages through Raycast AI or third-party detectors
 - [raycast-notifier](https://github.com/LitoMore/raycast-notifier) - Send cross platform native notifications using Raycast
