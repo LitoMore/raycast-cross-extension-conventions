@@ -25,6 +25,7 @@
 		"@raycast/api": ">=1"
 	},
 	"devDependencies": {
+		"@litomore/xo-config": "^0.1.0",
 		"@sindresorhus/tsconfig": "^7.0.0",
 		"@types/node": "^24.0.7",
 		"del-cli": "^6.0.0",
