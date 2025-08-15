@@ -26,11 +26,11 @@
 	},
 	"devDependencies": {
 		"@litomore/xo-config": "^0.1.0",
-		"@sindresorhus/tsconfig": "^7.0.0",
-		"@types/node": "^24.0.7",
+		"@sindresorhus/tsconfig": "^8.0.1",
+		"@types/node": "^24.3.0",
 		"del-cli": "^6.0.0",
-		"typescript": "^5.8.3",
-		"xo": "^1.1.1"
+		"typescript": "^5.9.2",
+		"xo": "^1.2.1"
 	},
 	"dependencies": {
 		"read-pkg-up": "^7.0.1"
