@@ -69,7 +69,7 @@ For example, the [Say](https://raycast.com/litomore/say) extension is using the 
 
 ```typescript
 import { LaunchProps } from "@raycast/api";
-import { callbackLaunchCommand, LaunchOptions } from "raycast-cross-extension";
+import { LaunchOptions, callbackLaunchCommand } from "raycast-cross-extension";
 
 type LaunchContext = {
 	foo?: string;
