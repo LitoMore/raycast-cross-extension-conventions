@@ -63,7 +63,7 @@ The `callbackLaunchOptions` is used for running the callback `launchCommand()` t
 Please note passing parameters through [`Arguments`](https://developers.raycast.com/information/lifecycle/arguments) is not recommneded since it supports string only.
 
 But a command with arguments is still useful if you want to reuse your existing arguments-based commands as the cross-extension entrance.
-For example, the [Say](https://raycast.com/litomore/say) extension is using the `typeToSay` arguments-based command for receiving cross-extension parameters.
+For example, the [Say](https://raycast.com/litomore/say?via=litomore) extension is using the `typeToSay` arguments-based command for receiving cross-extension parameters.
 
 #### Example
 
@@ -145,25 +145,25 @@ Show the world your extension implemented Cross-Extension.
 
 ### Consumers
 
-- [Badges - shields.io](https://raycast.com/litomore/badges) - Concise, consistent, and legible badges
-- [Cursor Directory](https://raycast.com/escwxyz/cursor-directory) - Your cursor.directory in Raycast
-- [Pomodoro](https://www.raycast.com/asubbotin/pomodoro) - Pomodoro extension with menu-bar timer
-- [Steam](https://raycast.com/KevinBatdorf/steam) - Search and view any Steam games
-- [United Nations](https://raycast.com/litomore/united-nations) - Peace, dignity and equality on a healthy planet
+- [Badges - shields.io](https://raycast.com/litomore/badges?via=litomore) - Concise, consistent, and legible badges
+- [Cursor Directory](https://raycast.com/escwxyz/cursor-directory?via=litomore) - Your cursor.directory in Raycast
+- [Pomodoro](https://www.raycast.com/asubbotin/pomodoro?via=litomore) - Pomodoro extension with menu-bar timer
+- [Steam](https://raycast.com/KevinBatdorf/steam?via=litomore) - Search and view any Steam games
+- [United Nations](https://raycast.com/litomore/united-nations?via=litomore) - Peace, dignity and equality on a healthy planet
 
 ### Providers
 
-- [Brand Icons - simpleicons.org](https://raycast.com/litomore/simple-icons) - Browse, search, and copy free SVG icons for popular brands
-- [Color Picker](https://raycast.com/thomas/color-picker) - A simple system-wide color picker
-- [Cursor](https://raycast.com/degouville/cursor-recent-projects) - Control Cursor, Cursor & Codium directly from Raycast
-- [Do Not Disturb](https://raycast.com/yakitrak/do-not-disturb) - Disable notifications on your Apple devices
-- [Language Detector](https://raycast.com/litomore/language-detector) - Detect languages through Raycast AI or third-party language detectors
-- [PM2](https://raycast.com/litomore/pm2) - Manage even run your Node.js processes through Raycast
-- [ProtonDB](https://raycast.com/litomore/protondb) - Game information for Proton, Linux, Steam Deck, and SteamOS
-- [Raycast Port](https://raycast.com/litomore/raycast-port) - Allows you to use Raycast features out of Raycast
-- [Raycast Notification](https://raycast.com/maxnyby/raycast-notification) - Makes it easy to display notifications via a quicklink
-- [Say - Text to Speech](https://raycast.com/litomore/say) - macOS built-in TTS interface
-- [SteamGridDB](https://raycast.com/litomore/steamgriddb) - Browse SteamGridDB images in Raycast
+- [Brand Icons - simpleicons.org](https://raycast.com/litomore/simple-icons?via=litomore) - Browse, search, and copy free SVG icons for popular brands
+- [Color Picker](https://raycast.com/thomas/color-picker?via=litomore) - A simple system-wide color picker
+- [Cursor](https://raycast.com/degouville/cursor-recent-projects?via=litomore) - Control Cursor, Cursor & Codium directly from Raycast
+- [Do Not Disturb](https://raycast.com/yakitrak/do-not-disturb?via=litomore) - Disable notifications on your Apple devices
+- [Language Detector](https://raycast.com/litomore/language-detector?via=litomore) - Detect languages through Raycast AI or third-party language detectors
+- [PM2](https://raycast.com/litomore/pm2?via=litomore) - Manage even run your Node.js processes through Raycast
+- [ProtonDB](https://raycast.com/litomore/protondb?via=litomore) - Game information for Proton, Linux, Steam Deck, and SteamOS
+- [Raycast Port](https://raycast.com/litomore/raycast-port?via=litomore) - Allows you to use Raycast features out of Raycast
+- [Raycast Notification](https://raycast.com/maxnyby/raycast-notification?via=litomore) - Makes it easy to display notifications via a quicklink
+- [Say - Text to Speech](https://raycast.com/litomore/say?via=litomore) - macOS built-in TTS interface
+- [SteamGridDB](https://raycast.com/litomore/steamgriddb?via=litomore) - Browse SteamGridDB images in Raycast
 
 ### Utilities
 
