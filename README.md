@@ -150,6 +150,7 @@ Show the world your extension implemented Cross-Extension.
 - [Pomodoro](https://www.raycast.com/asubbotin/pomodoro?via=litomore) - Pomodoro extension with menu-bar timer
 - [Steam](https://raycast.com/KevinBatdorf/steam?via=litomore) - Search and view any Steam games
 - [United Nations](https://raycast.com/litomore/united-nations?via=litomore) - Peace, dignity and equality on a healthy planet
+- [Iconify](https://www.raycast.com/destiner/iconify) - Search icons via Iconify
 
 ### Providers
 
