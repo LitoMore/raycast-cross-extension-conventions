@@ -147,10 +147,10 @@ Show the world your extension implemented Cross-Extension.
 
 - [Badges - shields.io](https://raycast.com/litomore/badges?via=litomore) - Concise, consistent, and legible badges
 - [Cursor Directory](https://raycast.com/escwxyz/cursor-directory?via=litomore) - Your cursor.directory in Raycast
+- [Iconify](https://raycast.com/destiner/iconify?via=litomore) - Search icons via Iconify
 - [Pomodoro](https://www.raycast.com/asubbotin/pomodoro?via=litomore) - Pomodoro extension with menu-bar timer
 - [Steam](https://raycast.com/KevinBatdorf/steam?via=litomore) - Search and view any Steam games
 - [United Nations](https://raycast.com/litomore/united-nations?via=litomore) - Peace, dignity and equality on a healthy planet
-- [Iconify](https://www.raycast.com/destiner/iconify) - Search icons via Iconify
 
 ### Providers
 
