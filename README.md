@@ -151,6 +151,7 @@ Show the world your extension implemented Cross-Extension.
 - [Pomodoro](https://raycast.com/asubbotin/pomodoro?via=litomore) - Pomodoro extension with menu-bar timer
 - [Steam](https://raycast.com/KevinBatdorf/steam?via=litomore) - Search and view any Steam games
 - [United Nations](https://raycast.com/litomore/united-nations?via=litomore) - Peace, dignity and equality on a healthy planet
+- [Word Count](https://raycast.com/itsmingjie/word-count?via=litomore) - Count characters, words, sentences, and paragraphs in text
 
 ### Providers
 
@@ -163,6 +164,7 @@ Show the world your extension implemented Cross-Extension.
 - [ProtonDB](https://raycast.com/litomore/protondb?via=litomore) - Game information for Proton, Linux, Steam Deck, and SteamOS
 - [Raycast Port](https://raycast.com/litomore/raycast-port?via=litomore) - Allows you to use Raycast features out of Raycast
 - [Raycast Notification](https://raycast.com/maxnyby/raycast-notification?via=litomore) - Makes it easy to display notifications via a quicklink
+- [ScreenOCR](https://raycast.com/huzef44/screenocr?via=litomore) - Extract text from screen captures locally via OCR
 - [Say - Text to Speech](https://raycast.com/litomore/say?via=litomore) - macOS built-in TTS interface
 - [SteamGridDB](https://raycast.com/litomore/steamgriddb?via=litomore) - Browse SteamGridDB images in Raycast
 
