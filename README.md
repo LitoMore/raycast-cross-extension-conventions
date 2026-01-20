@@ -145,7 +145,7 @@ Show the world your extension implemented Cross-Extension.
 
 ### Consumers
 
-- [Badges - shields.io](https://raycast.com/litomore/badges?via=litomore) - Concise, consistent, and legible badges
+- [Badges - Shields.io](https://raycast.com/litomore/badges?via=litomore) - Concise, consistent, and legible badges
 - [Cursor Directory](https://raycast.com/escwxyz/cursor-directory?via=litomore) - Your cursor.directory in Raycast
 - [Iconify](https://raycast.com/destiner/iconify?via=litomore) - Search icons via Iconify
 - [Pomodoro](https://raycast.com/asubbotin/pomodoro?via=litomore) - Pomodoro extension with menu-bar timer
