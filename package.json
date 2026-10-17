@@ -1,6 +1,6 @@
 {
 	"name": "raycast-cross-extension",
-	"version": "0.2.3",
+	"version": "0.3.0",
 	"description": "Defines the development approach for cross-extension in Raycast",
 	"repository": "https://github.com/LitoMore/raycast-cross-extension-conventions",
 	"main": "distribution/index.js",
