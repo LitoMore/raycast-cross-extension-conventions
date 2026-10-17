@@ -31,8 +31,5 @@
 		"del-cli": "^6.0.0",
 		"typescript": "^5.9.2",
 		"xo": "^1.2.1"
-	},
-	"dependencies": {
-		"read-pkg-up": "^7.0.1"
 	}
 }
