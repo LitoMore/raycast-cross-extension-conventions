@@ -42,8 +42,6 @@ export const crossLaunchCommand = async (
 		pack = JSON.parse(content) as PackageJson;
 	} catch {}
 
-	console.log(pack);
-
 	const ownerOrAuthorName =
 		// The `ownerOrAuthorName` was introduced in @raycast/api@1.78.0. We use a fallback to support older versions.
 		environment.ownerOrAuthorName ?? (pack?.owner ?? pack?.author)!;
