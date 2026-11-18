@@ -147,6 +147,7 @@ Show the world your extension implemented Cross-Extension.
 
 - [Badges - Shields.io](https://raycast.com/litomore/badges?via=litomore) - Concise, consistent, and legible badges
 - [Cursor Directory](https://raycast.com/escwxyz/cursor-directory?via=litomore) - Your cursor.directory in Raycast
+- [Digger](https://raycast.com/chrismessina/digger?via=litomore) - Comprehensive website intelligence and metadata extraction
 - [Iconify](https://raycast.com/destiner/iconify?via=litomore) - Search icons via Iconify
 - [Pomodoro](https://raycast.com/asubbotin/pomodoro?via=litomore) - Pomodoro extension with menu-bar timer
 - [Steam](https://raycast.com/KevinBatdorf/steam?via=litomore) - Search and view any Steam games
