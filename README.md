@@ -150,6 +150,7 @@ Show the world your extension implemented Cross-Extension.
 - [Digger](https://raycast.com/chrismessina/digger?via=litomore) - Comprehensive website intelligence and metadata extraction
 - [Iconify](https://raycast.com/destiner/iconify?via=litomore) - Search icons via Iconify
 - [Pomodoro](https://raycast.com/asubbotin/pomodoro?via=litomore) - Pomodoro extension with menu-bar timer
+- [Reader Mode](https://raycast.com/chrismessina/reader-mode?via=litomore) - Read web articles distraction-free in reader mode from a URL
 - [Steam](https://raycast.com/KevinBatdorf/steam?via=litomore) - Search and view any Steam games
 - [United Nations](https://raycast.com/litomore/united-nations?via=litomore) - Peace, dignity and equality on a healthy planet
 - [Word Count](https://raycast.com/itsmingjie/word-count?via=litomore) - Count characters, words, sentences, and paragraphs in text
